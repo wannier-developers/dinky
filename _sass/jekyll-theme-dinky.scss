@@ -23,6 +23,17 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* Reconfigure subscripts and superscripts after reset */
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
 
 /* Base text styles */
 
